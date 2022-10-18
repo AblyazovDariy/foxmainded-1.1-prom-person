@@ -2,80 +2,71 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  height: 100%;
-  width: 100%;
-  background: rgb(0,1,52);
-  background: linear-gradient(145deg, rgba(0,1,52,1) 0%, rgba(153,153,153,1) 30%);
-  background-repeat: no-repeat;
-
+  background-color: #DBDBDC;
+  font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3 {
+  font-family: 'Roboto Mono', monospace;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+p {
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 0  50px;
+  padding: 20px;
 }
 
-header {
-  padding: 15px;
-}
-
-
-#stars-img {
-  position: absolute;
-  height: 14vh;
-}
-
-.flag-lines-container {
-  width: 100%;
-  height: 26vh;
+.img-container {
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 20px 50px 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-
+  align-items: center;
+  gap: 5px;
 }
 
-.flag-line {
-  background: rgb(255,0,0);
-  background: linear-gradient(121deg, rgba(255,0,0,1) 0%, rgba(153,153,153,0) 70%);
+.img-sizing {
+  width: 300px;
+  height: 300px;
+}
+
+img{
+  border-radius: 50%;
   width: 100%;
-  height: 2vh;
+  height: 100%;
 }
 
-#Ronald-Reagan-img {
-  position: absolute;
-  top: 0;
-  right: 0;
-
+span {
+  background-color: grey;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
 }
 
 main {
   margin: 50px;
-  width: 80%;
-  background: white;
-  border: 3px solid #8F9BEE;
-  border-radius: 20px;
 }
 
-h1 {
-  font-family: 'Lobster', cursive;
-  text-align: center;
-}
-
-h2{
-  font-family: 'Lobster', cursive;
-  padding: 0 200px 0 200px;
-}
-
-.text {
-  display: flex;
-  flex-direction: column;
-}
-
-p {
-  font-family: 'Pacifico', cursive;
-  padding: 0 100px 0 100px;
+main > h3 {
+  text-align: left;
 }
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100px;
-  width: 100%;
 }
 
-span{
-  padding-left: 200px;
+footer > span {
+  border-color: #DBDBDC;
 }
